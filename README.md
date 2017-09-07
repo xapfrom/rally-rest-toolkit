@@ -2,7 +2,7 @@
 Rest Toolkit for Rally in Golang
 
 ### Purpose
-To proivde an intuitive API in Golang for accessing Rally data through the REST API
+To provide an intuitive API in Golang for accessing Rally data through the REST API.
 
 ### Usage
 
