@@ -51,6 +51,14 @@ type Defect struct {
 	Resolution          string     `json:",omitempty"`
 }
 
+type Feature struct {
+	Ref         string      `json:"_ref,omitempty"`
+	ObjectID    int         `json:",omitempty"`
+	Description string      `json:",omitempty"`
+	FormattedID string      `json:",omitempty"`
+	State       interface{} `json:",omitempty"`
+}
+
 type HierarchicalRequirement struct {
 	Ref                 string     `json:"_ref,omitempty"`
 	Project             *Reference `json:",omitempty"`
